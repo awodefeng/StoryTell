@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">StoryTall</string>
+
+    <string name="download_list">下载列表</string>
+    <string name="play_list">还没有故事哦</string>
+    <string name="story_deafault_name">小兔子乖乖</string>
+    <string name="story_qimiaoli_name">奇妙里</string>
+    <string name="story_main_page_no_story">没有故事</string>
+
+    <!--  操作故事列表的标题  -->
+    <string name="delete_sucess">删除成功</string>
+</resources>

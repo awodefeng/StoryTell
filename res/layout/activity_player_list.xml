@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_player_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xxun.watch.storytall.activitys.PlayerListActivity">
+    <RelativeLayout
+        android:layout_width="@dimen/activity_bound_size_height"
+        android:layout_height="@dimen/activity_bound_size_width"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:background="@color/app_backgroud_theme">
+        <TextView
+            android:id="@+id/textDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/play_list"
+            android:textSize="26.33px"
+            android:textColor="@color/text_word_thmem"/>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_playList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"/>
+
+    </RelativeLayout>
+</RelativeLayout>

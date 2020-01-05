@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+	<string name="id">values-zh-rTW</string>
+	<string name="app_name" />
+	<string name="download_list">下載列表</string>
+	<string name="play_list">還沒有故事哦</string>
+	<string name="story_deafault_name">小兔子乖乖</string>
+	<string name="story_qimiaoli_name">奇妙裡</string>
+	<string name="story_main_page_no_story">沒有故事</string>
+	<string name="delete_sucess">刪除成功</string>
+</resources>

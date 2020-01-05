@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80px"
+    android:background="@color/app_backgroud_theme">
+    <RelativeLayout
+        android:id="@+id/rl_story_zone"
+        android:layout_width="match_parent"
+        android:layout_height="80px">
+        <TextView
+            android:id="@+id/tv_story_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/story_deafault_name"
+            android:textSize="26.33px"
+            android:textColor="@color/text_word_thmem"
+            android:layout_centerVertical="true"
+            android:gravity="left|center"
+            android:singleLine="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginRight="10px"
+            android:layout_marginLeft="10px"
+            android:layout_toLeftOf="@+id/iv_story_icon"/>
+
+            <ImageView
+                android:id="@+id/iv_story_icon"
+                android:layout_width="40px"
+                android:layout_height="match_parent"
+                android:paddingRight="10px"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                />
+    </RelativeLayout>
+</RelativeLayout>

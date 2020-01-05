@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/activity_bound_size_height"
+    android:layout_height="@dimen/activity_bound_size_width"
+    android:background="@drawable/delete">
+    <ImageView
+        android:id="@+id/iv_confirm"
+        android:layout_width="120px"
+        android:layout_height="50px"
+        android:layout_marginTop="190px"
+        android:layout_marginLeft="0px"
+        android:background="@drawable/btn_action_confirm"/>
+    <ImageView
+        android:id="@+id/iv_cancle"
+        android:layout_width="120px"
+        android:layout_height="50px"
+        android:layout_marginTop="190px"
+        android:layout_marginLeft="120px"
+        android:background="@drawable/btn_action_cancle"/>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AppDefaultTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowSwipeToDismiss">true</item>
+    </style>
+
+</resources>
